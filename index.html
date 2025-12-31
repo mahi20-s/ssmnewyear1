@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>New Year Surprise ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  </head>
+<body>
+
+<!-- 1️⃣ Opening Screen -->
+<div class="screen active" id="screen1">
+  <h1>Tap to open your New Year surprise 🎁✨</h1>
+  <button onclick="goTo(2)">Open</button>
+</div>
+
+<!-- 2️⃣ Interaction Screen -->
+<div class="screen" id="screen2">
+  <h1>First kiss me 😘</h1>
+  <button onclick="goTo(3)">💋 Kiss</button>
+</div>
+
+<!-- 3️⃣ Reaction Screen -->
+<div class="screen" id="screen3">
+  <h1 class="blush">Hehe 🙈😊</h1>
+</div>
+
+<!-- 4️⃣ Final Romantic Screen -->
+<div class="screen" id="screen4">
+
+  <canvas id="fireworks"></canvas>
+
+  <audio id="music" loop>
+    <source src="music/dandelions.mp3" type="audio/mpeg">
+  </audio>
+
+  <h1 class="title">
+    Happy New Year 2026,<br>
+    <span>Her Name</span> 🎆
+  </h1>
+
+  <p class="message">
+    This year, and every year after,<br>
+    I choose you.  
+    Thank you for being my happiest place ❤️
+  </p>
+
+  <div class="slideshow">
+    <img src="photos/photo1.jpg" class="slide active">
+    <img src="photos/photo2.jpg" class="slide">
+    <img src="photos/photo3.jpg" class="slide">
+  </div>
+
+  <p class="from">
+    Forever yours,<br>
+    <strong>Your Name</strong>
+  </p>
+
+</div>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
